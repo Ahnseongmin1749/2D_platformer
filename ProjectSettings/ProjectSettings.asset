@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 671a80ab7b4f5b4439a1b59b0df2d730
+  productGUID: a5869cfd41ff7b344aed8459babb4d76
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: 2D_Game_Study
+  productName: 2D Gamestudy
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -630,14 +630,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: 2D_Game_Study
+  metroPackageName: 2D Gamestudy
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: 2D_Game_Study
+  metroApplicationDescription: 2D Gamestudy
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -708,10 +708,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: f0cde620-944c-4640-9003-cc9a9ca6c525
+  cloudProjectId: 1b5a7a04-cf05-458f-b261-a1ec49ce197a
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 2D_Game_Study
+  projectName: 2D Gamestudy
   organizationId: csi1368
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

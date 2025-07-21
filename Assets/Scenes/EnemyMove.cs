@@ -6,13 +6,14 @@ public class EnemyMove : MonoBehaviour
     public int nextMove;
     Animator anim;
     SpriteRenderer spriteRanderer;
-    BoxCollider2D boxcollider;
+    CapsuleCollider2D capsuleCollider;
 
     void Awake()
     {
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         spriteRanderer = GetComponent<SpriteRenderer>();
+        capsuleCollider = GetComponent<CapsuleCollider2D>();
         Think();
     }
 
@@ -72,7 +73,7 @@ public class EnemyMove : MonoBehaviour
         spriteRanderer.flipY = true;
 
         //Collider Disable
-        boxcollider.enabled = true;
+        capsuleCollider.enabled = false;
 
         //Die Effect Jump
         rigid.AddForce(Vector2.up * 5, ForceMode2D.Impulse);

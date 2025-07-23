@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public class EnemyMove : MonoBehaviour
@@ -7,6 +8,7 @@ public class EnemyMove : MonoBehaviour
     Animator anim;
     SpriteRenderer spriteRanderer;
     CapsuleCollider2D capsuleCollider;
+
 
     void Awake()
     {

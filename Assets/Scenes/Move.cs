@@ -228,18 +228,6 @@ public class Move : MonoBehaviour
         if (collision.gameObject.tag == "Item")
         {
             //Point
-            /*if(collision.gameObject.name == "Bronze")
-            {
-                manager.stagePoint += 50;
-            }
-            else if(collision.gameObject.name == "Silver")
-            {
-                manager.stagePoint += 100;
-            }
-            else
-            {
-                manager.stagePoint += 300;
-            }*/
             bool isBronze = collision.gameObject.name.Contains("Bronze");
             bool isSilver = collision.gameObject.name.Contains("Silver");
             bool isGold = collision.gameObject.name.Contains("Gold");
